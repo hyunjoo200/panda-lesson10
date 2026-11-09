@@ -4,7 +4,7 @@ service cloud.firestore {
 
     // ▼▼▼ 아래 따옴표 안을 선생님 로그인 이메일로 바꾸세요 ▼▼▼
     function isTeacher() {
-      return request.auth != null && request.auth.token.email == 'teacher@example.com';
+      return request.auth != null && request.auth.token.email == 'cheerjooup@gmail.com';
     }
     // ▲▲▲ 여기까지만 고치면 됩니다 ▲▲▲
 
